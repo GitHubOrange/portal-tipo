@@ -10,8 +10,8 @@ El maquetado incorpora todas las cláusulas correspondientes al cumplimiento de 
 
 ##Descargas
 
-<li>Descargar todos los formatos del Portal Tipo:</li>
+<li>Descargar todos los formatos del Portal Tipo:</li><br>
 <a href="http://peu.agesic.gub.uy/portal-tipo/portal-tipo.rar">Portal Tipo (.rar 200kb)</a>
 
-<li>Descargar solo los formatos de transparencia sin contexto (Sin menú ni cabezal):</li>
+<li>Descargar solo los formatos de transparencia sin contexto (Sin menú ni cabezal):</li><br>
 <a href="http://peu.agesic.gub.uy/portal-tipo/portal-tipo.rar">Transparencia (.rar 98kb)</a>
