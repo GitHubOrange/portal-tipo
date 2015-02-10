@@ -1,0 +1,308 @@
+<!--[if i]><![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="jsOff ie" lang="es-ES"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="jsOff" lang="es-ES"> <!--<![endif]-->
+<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="La descripción debe contener de 70 a 140 caracteres. Se hace referencia al contenido principal donde se muestran las noticias del Portal." />
+    <meta name="author" content="Nombre autor">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
+	<title>Portal Tipo | Inicio, Documentos</title>
+	<!-- FAVICON -->
+  	<link rel="shortcut icon" href="imgs/favicon.ico" />
+    <!-- CSS/RESET-GENERAL-RESPONSIVE -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+    <!-- JS/IE - SELECTORES HTML5 -->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.min.js"></script>
+	<![endif]-->
+	<!-- JS/JQUERY -->
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<!-- JS/MODERNIZR -->
+    <script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+<body>
+	<div class="contenedorGeneral">
+		<!-- ENCABEZADO SUPERIOR -->
+    	<div id="cabezalSuperior">
+            <a href="#contenidoPrincipal" class="floatIzq">Ir a Contenido</a>
+            <nav role="navigation">
+                <ul class="floatDer listaHorizontal">
+                    <li><a href="home.html" title="Ir al inicio del Portal Tipo">Inicio</a></li>
+                    <li><a href="transparencia.html">Transparencia</a></li>
+                    <li><a href="concursos.html">Concursos</a></li>
+                    <li><a href="adquisiciones.html" class="icn-adquisiciones" title="Ver Feed RSS: Adquisiciones">Adquisiciones</a></li>
+                    <li><a href="participacion.html">Participación</a></li>
+                    <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                    <li><a href="datos-abiertos.html">Datos abiertos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+			</nav>
+        </div>
+        <!-- CABEZAL PRINCIPAL -->
+		<header class="headerPrincipal" role="banner">
+			<div class="logoOrganismo">
+				<a href="home.html" title="Ir al inicio del Portal Tipo">
+                	<div class="logo">
+                    	<img src="http://placehold.it/200x110" alt="Logo Portal Tipo">
+                    </div>
+                    <span class="nombreOrganismo">Nombre del Organismo</span>
+				</a>
+			</div>
+            <div class="btnsMobile">
+            	<div id="btn_menu"></div>
+				<div id="btn_buscador"></div>
+			</div>
+			<!-- BUSCADOR PRINCIPAL -->
+            <div id="seccionBuscador">
+            	<div id="logosSecundarios">
+            		<ul class="floatDer listaHorizontal">
+            	    	<li>
+                            <a href="#" title="Ir al sitio de Nombre Organismo 1">
+                            	<img src="http://placehold.it/95x45" alt="Nombre Organismo 1">
+                            </a>
+                        </li>
+            	        <li>
+                        	<a href="#" title="Ir al sitio de Nombre Organismo 2">
+                            	<img src="http://placehold.it/95x45" alt="Nombre Organismo 2">
+							</a>
+                        </li>
+            	        <li>
+                        	<a href="#" title="Ir al sitio de Uruguay Digital">
+                            	<img src="imgs/logo-uruguayDigital.png" alt="Uruguay Digital">
+                            </a>
+						</li>
+					</ul>
+            	</div>
+            	<div id="contBusquedaHeader">
+            		<form name="formBusquedaHeader">
+                    	<label for="busquedaHeader" class="hideRead">Buscar:</label>
+            			<input id="busquedaHeader" type="search" name="busquedaHeader" class="inputText" placeholder="Buscar en el sitio" title="Busqueda en el sitio">
+                        <input type="submit" id="btnBusquedaHeader" class="btn" value="Buscar" title="Iniciar búsqueda">
+					</form>
+                    <div id="icnBusqueda"></div>
+            	</div>
+			</div>
+        </header>
+		<!-- NAVEGACIÓN PRINCIPAL-->
+        <nav class="navMenuPrincipal" role="navigation">
+			<ul>
+				<li class="itemMenuPrincipal">
+					<a href="#" aria-haspopup="true">Institucional</a>
+            		<ul>
+            		    <li class="subItem"><a href="#">La Institución</a></li>
+            		    <li class="subItem"><a href="contacto.html">Contacto</a></li>
+            		    <li class="subItem"><a href="#">Estructura organizativa</a></li>
+            		    <li class="subItem"><a href="#">Personal</a></li>
+            		    <li class="subItem"><a href="#">Información de gestión</a></li>
+            		    <li class="subItem"><a href="adquisiciones.html">Adquisiciones</a></li>
+            		    <li class="subItem"><a href="concursos.html">Concursos</a></li>
+            		    <li class="subItem"><a href="participacion.html">Participación</a></li>
+            		    <li class="subItem"><a href="datos-abiertos.html">Datos abiertos</a></li>
+            		    <li class="subItem"><a href="transparencia.html">Transparencia</a></li>
+                        <li class="subItem"><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+            		    <li class="subItem"><a href="#">Acerca del portal</a></li>
+            		</ul>
+        		</li>
+        		<li class="itemMenuPrincipal">
+					<a href="#" aria-haspopup="true">Normativa</a>
+					<ul>
+        		        <li class="subItem"><a href="#">Categoría 1</a></li>
+        		        <li class="subItem"><a href="#">Categoría 2</a></li>
+        		        <li class="subItem"><a href="#">Categoría 3</a></li>
+						<li class="subItem"><a href="#">Categoría 4</a></li>
+					</ul>
+				</li>
+				<li class="itemMenuPrincipal">
+					<a href="#" aria-haspopup="true">Noticias</a>
+			  		<ul>
+						<li class="subItem"><a href="#">Todas las noticias</a></li>
+           		    	<li class="subItem"><a href="#">Multimedia</a></li>
+               		 	<li class="subItem"><a href="#">Boletín de noticias</a></li>
+               		 	<li class="subItem"><a href="#">Prensa</a></li>
+					</ul>
+				</li>
+				<li class="menuItem">
+            		<a href="tramites-servicios.html">Trámites y servicios</a>
+			  </li>
+                <li class="menuItem">
+            		<a href="#">Opción 5</a>
+			  </li>
+                <li class="menuItem">
+            		<a href="#">Opción 6</a>
+			  </li>
+                <li class="menuItem">
+            		<a href="#">Opción 7</a>
+				</li>
+			</ul>
+        </nav>
+        <div class="contGralContenido">
+    	    <!-- CONTENIDO PRINCIPAL -->
+    	    <main id="contenidoPrincipal" class="contContenido" role="main">
+            	<div class="contenido">
+                	<div class="sliderNoticias">
+						<img src="http://placehold.it/720x200" srcset="http://placehold.it/1440x400 2x, http://placehold.it/2160x600 3x" width="720" height="200"  alt="Descipción relevante de la imagen uno." />
+                    </div>
+                	<h1>Documentos</h1> <!-- TÍTULO -->
+                	<div class="contListadoNoticias">
+                    	<div class="boxNoticia">
+                        	<div class="imgBoxNoticias">
+                            	<img src="http://placehold.it/180x180" srcset="http://placehold.it/360x360 2x, http://placehold.it/540x540 3x" alt="Descipción relevante de la imagen dos." width="180" height="180" />
+							</div>
+                            <a href="formato-documento.html" class="titleLinkNoticia">Formato documento</a>
+                            <p class="info">Los textos simulados son también utilizados para comparar variedades tipográficas y para trabajos de maquetación y diseño. El contenido de la mayor parte de estos textos carece de sentido. Debido a su uso difundido como texto de relleno...</p>
+                        </div>
+                        <div class="boxNoticia">
+                        	<div class="imgBoxNoticias">
+                            	<img src="http://placehold.it/180x180" srcset="http://placehold.it/360x360 2x, http://placehold.it/540x540 3x" alt="Descipción relevante de la imagen tres." width="180" height="180" />
+							</div>
+                            <a href="micrositio.html" class="titleLinkNoticia">Micro sitio</a>
+                            <p class="info">Los textos simulados son también utilizados para comparar variedades tipográficas y para trabajos de maquetación y diseño. El contenido de la mayor parte de estos textos carece de sentido. Debido a su uso difundido como texto de relleno...</p>
+                        </div>
+                        <div class="boxNoticia">
+                       	  <div class="imgBoxNoticias">
+                            	<img src="http://placehold.it/180x180" srcset="http://placehold.it/360x360 2x, http://placehold.it/540x540 3x" alt="Descipción relevante de la imagen cuatro." width="180" height="180" />
+							</div>
+                            <a href="formato-carpeta.html" class="titleLinkNoticia">Formato carpeta</a>
+                            <p class="info">Los textos simulados son también utilizados para comparar variedades tipográficas y para trabajos de maquetación y diseño. El contenido de la mayor parte de estos textos carece de sentido. Debido a su uso difundido como texto de relleno...</p>
+                        </div>
+					</div>
+				</div>
+    	    </main>
+            <div class="seccionCtx sectionRight">
+    	    	<!-- SECCIÓN ACCESOS DIRECTOS CTX-->
+    	    	<section class="accesosCtx ctx" role="region">
+                	<div id="titleCtxAcceso" class="content-title"><h1 class="sectionTitle">Accesos rápidos</h1><span class="icn-acc"></span></div>
+                	<!-- NAVEGACIÓN CONTEXTUAL -->
+                    <nav class="contListaCtx" role="navigation">
+    	        		<ul>
+    	        			<li><a href="#">Acceso 1</a></li>
+    	        		    <li><a href="#">Acceso 2</a></li>
+    	        		    <li><a href="#">Acceso 3</a></li>
+                            <li><a href="#">Acceso 4</a></li>
+    	        		    <li><a href="#">Acceso 5</a></li>
+                            <li><a href="#">Acceso 6</a></li>
+       		     		</ul>
+       		 		</nav>
+				</section>
+                <div class="accesosCtxBoxes">
+                	<ul>
+                    	<li><a href="#"><img src="http://placehold.it/250x90" srcset="http://placehold.it/500x180 2x, http://placehold.it/750x270 3x" alt="Descipción relevante de la imagen cinco." width="250" height="90" /></a></li>
+                        <li><a href="#"><img src="http://placehold.it/250x90" srcset="http://placehold.it/500x180 2x, http://placehold.it/750x270 3x" alt="Descipción relevante de la imagen seis." width="250" height="90" /></a></li>
+                        <li><a href="#"><img src="http://placehold.it/250x90" srcset="http://placehold.it/500x180 2x, http://placehold.it/750x270 3x" alt="Descipción relevante de la imagen siete." width="250" height="90" /></a></li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+        <!-- ACCESOS RÁPIDOS -->
+        <div id="accesosRapidos">
+        	<div class="contAccesosRapidos">
+            	<div class="acceso">
+                	<nav role="navigation">
+                        <ul>
+                            <li><a href="preguntas-frecuentes.html" class="tituloLink">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#" class="listaLink">Ver todas las preguntas</a></li>
+                        </ul>
+					</nav>
+				</div>
+                <div class="acceso">
+                	<nav role="navigation">
+                        <ul>
+                            <li><a href="#" class="tituloLink">Título A</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#" class="listaLink">Ver todos los títulos A</a></li>
+                        </ul>
+					</nav>
+				</div>
+                <div class="acceso">
+					<nav role="navigation">
+                        <ul>
+                            <li><a href="#" class="tituloLink">Título B</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a class="listaLink" href="#">Ver todos los títulos B</a></li>
+                        </ul>
+					</nav>
+				</div>
+            	<div class="acceso">
+                	<nav role="navigation">
+                        <ul>
+                            <li><a href="#" class="tituloLink">Título C</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#" class="listaLink">Ver todos los títulos C</a></li>
+                        </ul>
+					</nav>
+				</div>    
+        	</div>
+        </div>
+        <!-- FOOTER PRINCIPAL -->
+        <footer class="footerPrincipal" role="contentinfo">
+        	<div class="contPie">
+        		<address>
+                    <ul class="floatIzq">
+                        <li><strong>Nombre de la Organización</strong></li>
+                        <li>Dirección: Oficina Central: Xxxxxxx 0000, piso 0- Montevideo, Uruguay</li>
+                        <li>Teléfono: 0000 0000 opción 0 - Horario de atención: Xxxxx a Xxxxxxx de 00:00 a 00:00</li>
+                        <li>Mail: <a href="mailto:mail@mail.gub.uy">mail@mail.gub.uy</a></li>
+                    </ul>
+				</address>
+            	<ul class="listaHorizontal redesSociales">
+            		<li>
+                        <a href="#" title="Ir a red social 1">
+                        	<img src="http://placehold.it/35x35" alt="Logo de red social 1">
+                        </a>
+                    </li>
+            	    <li>
+                    	<a href="#" title="Ir a red social 2">
+                        <img src="http://placehold.it/35x35" alt="Logo de red social 2">
+                        </a>
+					</li>
+            	    <li>
+                        <a href="#" title="Ir a red social 3">
+                        	<img src="http://placehold.it/35x35" alt="Logo de red social 3">
+                        </a>
+                    </li>
+            	</ul>
+            	<nav role="navigation">
+                    <ul id="linksFooter" class="floatDer">
+                        <li><a href="declaracion-accesibilidad.html">Declaración de Accesibilidad</a></li>
+                        <li><a href="terminos-uso.html">Términos de uso</a></li>
+                        <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="mapa-sitio.html">Mapa del sitio</a></li>
+                    </ul>
+				</nav>
+        	</div>
+        </footer>
+	</div>
+    <!-- JS/HOVERINTENT -->
+    <script type="text/javascript" src="js/hoverIntent.min.js"></script>
+    <!-- JS/DOUBLETAPTOGO -->
+    <script type="text/javascript" src="js/doubletaptogo.min.js"></script>
+    <!-- JS/GENERAL -->
+    <script type="text/javascript" src="js/general.js"></script>
+    <!-- JS/IE - MEDIAQUERIES + PSEUDOCLASES -->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+        <script type="text/javascript" src="js/selectivizr.js"></script>
+    <![endif]-->
+</body>
+</html>
