@@ -7,10 +7,10 @@
 <![endif]-->
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="La descripción debe contener de 70 a 140 caracteres. Se hace referencia al contenido principal de contacto." />
+    <meta name="description" content="La descripción debe contener de 70 a 140 caracteres. Se hace referencia al contenido principal donde se muestra el el formato de contenido jerárquico." />
     <meta name="author" content="Nombre autor">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
-	<title>Portal Tipo | Contacto</title>
+	<title>Portal Tipo | Contenido jerárquico</title>
 	<!-- FAVICON -->
   	<link rel="shortcut icon" href="imgs/favicon.ico" />
     <!-- CSS/RESET-GENERAL-RESPONSIVE -->
@@ -79,7 +79,7 @@
             	</div>
             	<div id="contBusquedaHeader">
             		<form name="formBusquedaHeader">
-						<label for="busquedaHeader" class="hideRead">Buscar:</label>
+                    	<label for="busquedaHeader" class="hideRead">Buscar:</label>
             			<input id="busquedaHeader" type="search" name="busquedaHeader" class="inputText" placeholder="Buscar en el sitio" title="Busqueda en el sitio">
                         <input type="submit" id="btnBusquedaHeader" class="btn" value="Buscar" title="Iniciar búsqueda">
 					</form>
@@ -90,11 +90,11 @@
 		<!-- NAVEGACIÓN PRINCIPAL-->
         <nav class="navMenuPrincipal" role="navigation">
 			<ul>
-				<li class="itemMenuPrincipal active">
+				<li class="itemMenuPrincipal">
 					<a href="#" aria-haspopup="true">Institucional</a>
             		<ul>
             		    <li class="subItem"><a href="#">La Institución</a></li>
-            		    <li class="subItem active"><a href="contacto.html">Contacto</a></li>
+            		    <li class="subItem"><a href="contacto.html">Contacto</a></li>
             		    <li class="subItem"><a href="#">Estructura organizativa</a></li>
             		    <li class="subItem"><a href="#">Personal</a></li>
             		    <li class="subItem"><a href="#">Información de gestión</a></li>
@@ -109,37 +109,90 @@
         		</li>
         		<li class="itemMenuPrincipal">
 					<a href="#" aria-haspopup="true">Normativa</a>
-  				  <ul>
+			  <ul>
         		        <li class="subItem"><a href="#">Categoría 1</a></li>
         		        <li class="subItem"><a href="#">Categoría 2</a></li>
         		        <li class="subItem"><a href="#">Categoría 3</a></li>
 						<li class="subItem"><a href="#">Categoría 4</a></li>
-					</ul>
-				</li>
+				  </ul>
+			  </li>
 				<li class="itemMenuPrincipal">
 					<a href="#" aria-haspopup="true">Noticias</a>
-		  			<ul>
+			  <ul>
 						<li class="subItem"><a href="#">Todas las noticias</a></li>
            		    	<li class="subItem"><a href="#">Multimedia</a></li>
                		 	<li class="subItem"><a href="#">Boletín de noticias</a></li>
                		 	<li class="subItem"><a href="#">Prensa</a></li>
-					</ul>
-				</li>
+				  </ul>
+			  </li>
 				<li class="menuItem">
             		<a href="tramites-servicios.html">Trámites y servicios</a>
-				</li>
-				<li class="menuItem">
+		    </li>
+                <li class="menuItem">
             		<a href="#">Opción 5</a>
-				</li>
+		    </li>
                 <li class="menuItem">
             		<a href="#">Opción 6</a>
-				</li>
+		    </li>
                 <li class="menuItem">
             		<a href="#">Opción 7</a>
 				</li>
-			</ul>
+		  </ul>
         </nav>
         <div class="contGralContenido">
+        	<div class="seccionCtx sectionLeft">
+        		<!-- SECCIÓN MENU DE 2DO NIVEL -->
+        		<section class="menuCtx ctx" role="region">
+                    <div id="titleCtxMenu" class="content-title"><h1 class="sectionTitle">Noticias</h1><span class="icn-acc"></span></div>
+                    <!-- NAVEGACIÓN CONTEXTUAL -->
+                    <nav class="contListaCtx" role="navigation">
+        				<ul class="menuLista">
+                    		<li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Todas las noticias</a>
+								<ul>
+									<li><a href="#">Tema 1</a></li>
+									<li><a href="#">Tema 2</a></li>
+									<li><a href="#">Tema n</a></li>
+								</ul>
+							</li>
+							<li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Multimedia</a>
+								<ul>
+									<li><a href="#">Fotos</a></li>
+									<li><a href="#">Videos</a></li>
+									<li><a href="#">Presentaciones</a></li>
+								</ul>
+							</li>
+        	           		<li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Boletín de noticias</a>
+								<ul>
+									<li><a href="#">Inscribirse</a></li>
+									<li><a href="#">Histórico de boletines</a></li>
+								</ul>
+							</li>
+    	               		<li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Prensa</a>
+								<ul>
+									<li><a href="#">Comunicados de prensa</a></li>
+									<li><a href="#">Agenda</a></li>
+    	               		    	<li><a href="#">Información de contacto</a></li>
+								</ul>
+							</li>
+						</ul>
+                    </nav>
+    	    	</section>
+    	    	<!-- SECCIÓN ACCESOS DIRECTOS CTX-->
+    	    	<section class="accesosCtx ctx" role="region">
+                	<div id="titleCtxAcceso" class="content-title"><h1 class="sectionTitle">Boletín de noticias</h1><span class="icn-acc"></span></div>
+                	<!-- NAVEGACIÓN CONTEXTUAL -->
+                    <nav class="contListaCtx" role="navigation">
+    	        		<ul>
+    	        			<li><a href="#">Item 1</a></li>
+    	        		    <li><a href="#">Item 2</a></li>
+    	        		    <li><a href="#">Item 3</a></li>
+    	        		    <li><a href="#">Item 4</a></li>
+    	        		    <li><a href="#">Item 5</a></li>
+       		     		</ul>
+                    	<a href="#" class="listaLink">Ver todos los items</a>
+       		 		</nav>
+				</section>
+			</div>
     	    <!-- CONTENIDO PRINCIPAL -->
     	    <main id="contenidoPrincipal" class="contContenido" role="main">
             	<div class="contenido">
@@ -147,119 +200,106 @@
                     <nav role="navigation">
                     	<ol class="breadcrumb">
 							<li><a href="home.html">Inicio</a></li>
-                            <li><a href="#">Institucional</a></li>
-							<li class="active">Contacto</li>
+							<li class="active">Contenido jerárquico</li>
                         </ol>
-					</nav>
-                	<h1>Contacto</h1> <!-- TÍTULO -->
-					<p>Puede contactar con nosotros por medio del formulario de esta página, por medio del teléfono en el número 999 999 99999 o de forma presencial en la dirección calle Nº000, Código Postal, Ciudad.</p>
-                    <form action="#" id="formContacto" role="form">
-                    	<p class="required">Los campos indicados con <span class="required">*</span> son obligatorios</p>
-                        <fieldset>
-                        	<legend>Datos de contacto</legend>
-                            <div>
-								<fieldset>
-									<legend>Información personal</legend>
-                                    <div>
-                        		    	<ul>
-                        		    		<li id="inpNombre">
-                        		    	    	<label for="nombre">Nombre completo<span class="required">*</span>:</label>
-                        		    			<input type="text" id="nombre" name="nombre" placeholder="Escriba el nombre completo" title="Nombre completo" aria-required="true" required />
-											</li>
-                        		    		<li id="inpEmail">
-                        		    	    	<label for="email">Correo electrónico<span class="required">*</span>:</label>
-                        		    			<input type="email" id="email" name="email" placeholder="correo@dominio.com" pattern="[^ @]*@[^ @]*" title="Email" aria-required="true" required />
-											</li>
-                        		    	    <li id="inpMotivo">
-                        		    	    	<span class="label">Motivo<span class="required">*</span>:</span>
-                                                <ul class="radio-list">
-                                                    <li>
-                                                    	<label for="accesibilidad">
-                                                        	<input type="radio" id="accesibilidad" name="motivo" value="accesibilidad" title="Accesibilidad del Portal" checked aria-checked="true" required>
-                                                        	<span>Accesibilidad del Portal</span>
-                                                        </label>
-                                                    </li>
-                                                    <li>
-                                                    	<label for="tramitesyservicios">
-                                                        	<input type="radio" id="tramitesyservicios" name="motivo" value="tramitesyservicios" title="Trámites y servicios" aria-checked="false"><span>Trámites y servicios</span>
-														</label>
-                                                    </li>
-                                                    <li>
-                                                    	<label for="participacion">
-                                                        	<input type="radio" id="participacion" name="motivo" value="participacion" title="Participación" aria-checked="false"><span>Participación</span>
-                                                        </label>
-                                                    </li>
-                                                    <li>
-                                                    	<label for="general">
-                                                        	<input type="radio" id="general" name="motivo" value="general" title="General" aria-checked="false"><span>General</span>
-                                                        </label>
-                                                    </li>
+			    </nav>
+                	<h1>Contenido jerárquico</h1> <!-- TÍTULO -->
+                    <div class="tree">
+                        <ul>
+                            <li class="lvlOne">
+                                <div class="hasChilds">Ítems</div>
+                                <ul>
+                                    <li>
+                                        <div class="itemContent hasChilds">
+                                            <img src="http://placehold.it/200x150" alt="Imagen de ítem 1" />
+                                            <div class="contItem">
+                                                <h2><a href="#">Ítem 1</a></h2>
+                                                <ul class="list-two-col">
+                                                    <li>Dato uno</li>
+                                                    <li>Dato dos</li>
+                                                    <li>Dato tres</li>
+                                                    <li>Dato cuatro</li>
+                                                    <li>Dato n</li>
                                                 </ul>
-                                                <div class="clearFloat"></div>
-											</li>
-                        		    	    <li id="inpConsulta">
-                        		    	    	<label for="consulta">Consulta<span class="required">*</span>:</label>
-                        		    			<textarea id="consulta" title="Consulta" aria-required="true" required></textarea>
-                                            </li>
-                        		    	</ul>
-  									</div>
-                                </fieldset>
-								<fieldset>
-									<legend>Cláusula de consentimiento informado</legend>
-                                    <div>
-                                    	<p class="cursiva">"De conformidad con la Ley N° 18.331, de 11 de agosto de 2008, de Protección de Datos Personales y Acción de Habeas Data (LPDP), los datos suministrados por usted quedarán incorporados en una base de datos, la cual será procesada exclusivamente para la siguiente finalidad: **Objetivo del formulario**.</p>
-										<p>Los datos personales serán tratados con el grado de protección adecuado, tomándose las medidas de seguridad necesarias para evitar su alteración, pérdida, tratamiento o acceso no autorizado por parte de terceros que lo puedan utilizar para finalidades distintas para las que han sido solicitadas al usuario.<p>
-										<p>El responsable de la base de datos es **Titular de la base** y la dirección donde podrá ejercer los derechos de acceso, rectificación, actualización, inclusión o supresión, es **Dirección del organismo**, según lo establecido en la LPDP".</p>
+                                            </div>
+                                        </div>
                                         <ul>
-                                        	<li>
-                                                <ul class="radio-list alignRadioList">
-                                                    <li>
-                                                        <label for="clausulaAcepto"><input type="radio" id="clausulaAcepto" name="clausula" value="clausulaAcepto" title="Acepto la cláusula" aria-checked="false" required><span>Acepto los términos de la cláusula.</span></label>
-                                                    </li>
-                                                    <li>
-                                                        <label for="clausulaNoAcepto"><input type="radio" id="clausulaNoAcepto" name="clausula" value="clausulaNoAcepto" title="No acepto la cláusula" aria-checked="false" required><span>No acepto. (No se enviará el mensaje)</span></label>
-                                                    </li>
-                                            	</ul>
-                                            	<div class="clearFloat"></div>
+                                            <li>
+                                                <div class="itemContent">
+                                                    <div class="contItem noImage">
+                                                        <h2><a href="#">Ítem 1.1 una sola columna sin imagen</a></h2>
+                                                        <ul>
+                                                            <li>Dato uno. Descripción detallada de un ítem.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </li>
                                         </ul>
-									</div> 
-                        		</fieldset>
-            	            	<fieldset>
-									<legend>Verificación de seguridad</legend>
-                                    <div>
-                                    </div>
-            	            	</fieldset>
-                            	<input class="btn alignBtnLabel" type="submit" name="enviarContacto" title="Enviar formulario de contacto" value="Enviar" />
-							</div>
-                        </fieldset>
-					</form>
-				</div>
-    	    </main>
-            <div class="seccionCtx sectionRight">
-        		<!-- SECCIÓN MENU DE 2DO NIVEL -->
-        		<section class="menuCtx ctx" role="region">
-                	<div id="titleCtxMenu" class="content-title"><h1 class="sectionTitle">Atención presencial y telefónica</h1><span class="icn-acc"></span></div>
-                    <div class="content contListaCtx">
-                    	<ul class="dependencias">
-                        	<li>
-                            	<h2>AGESIC</h2>
-                                <img src="imgs/mapa_organismo.jpg" alt="Imagen dependencia uno">
-                                <ul>
-                                	<li>
-                                    <span class="destacado"><span class="icn-tel"></span>(+595) 2901 29 29</span>
                                     </li>
-                                    <li>Dirección: <strong>Torre Ejecutiva Sur, Liniers 1324 piso 4</strong></li>
-                                    <li>Horario de atención: <strong>Lunes a viernes de 9:30 a 17:30 hs.</strong></li>
-									<li>Email: <a href="mailto:contacto@agesic.gub.uy">contacto@agesic.gub.uy</a></li>
+                                    <li>
+                                        <div class="itemContent hasChilds">
+                                            <img src="http://placehold.it/200x150" alt="Imagen de ítem 2" />
+                                            <div class="contItem">
+                                                <h2><a href="#">Ítem 2</a></h2>
+                                                <ul class="list-two-col">
+                                                    <li>Dato uno</li>
+                                                    <li>Dato dos</li>
+                                                    <li>Dato tres</li>
+                                                    <li>Dato cuatro</li>
+                                                    <li>Dato n</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <div class="itemContent">
+                                                    <img src="http://placehold.it/200x150" alt="Imagen de ítem 2.1" />
+                                                    <div class="contItem">
+                                                        <h2><a href="#">Ítem 2.1 una sola columna con imagen</a></h2>
+                                                        <ul>
+                                                            <li>Dato uno. Descripción detallada de un ítem.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="itemContent hasChilds">
+                                                    <img src="http://placehold.it/200x150" alt="Imagen de ítem 2.2" />
+                                                    <div class="contItem">
+                                                        <h2><a href="#">Ítem 2.2</a></h2>
+                                                        <ul class="list-two-col">
+                                                            <li>Dato uno bastante largo</li>
+                                                            <li>Dato dos: Con título asociado largo</li>
+                                                            <li>Dato tres</li>
+                                                            <li>Dato cuatro</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <div class="itemContent">
+                                                            <div class="contItem noImage">
+                                                                <h2><a href="#">Ítem 2.2.1 sin imagen</a></h2>
+                                                                <ul class="list-two-col">
+                                                                    <li>Dato uno</li>
+                                                                    <li>Dato dos</li>
+                                                                    <li>Dato tres</li>
+                                                                    <li>Dato cuatro</li>
+                                                                    <li>Dato n</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
-                        <a class="floatDer" href="#">Ver todas las dependencias</a>
-                        <div class="clearFloat"></div>
-					</div>
-    	    	</section>
-			</div>
+                    </div>
+				</div>
+    	    </main>
 		</div>
         <!-- ACCESOS RÁPIDOS -->
         <div id="accesosRapidos">
@@ -321,7 +361,7 @@
         <!-- FOOTER PRINCIPAL -->
         <footer class="footerPrincipal" role="contentinfo">
         	<div class="contPie">
-            	<address>
+        		<address>
                     <ul class="floatIzq">
                         <li><strong>Nombre de la Organización</strong></li>
                         <li>Dirección: Oficina Central: Xxxxxxx 0000, piso 0- Montevideo, Uruguay</li>
@@ -358,11 +398,11 @@
         </footer>
 	</div>
     <!-- JS/HOVERINTENT -->
-    <script type="text/javascript" src="js/hoverIntent.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.min.js"></script>
     <!-- JS/DOUBLETAPTOGO -->
-    <script type="text/javascript" src="js/doubletaptogo.min.js"></script>
+<script type="text/javascript" src="js/doubletaptogo.min.js"></script>
     <!-- JS/GENERAL -->
-    <script type="text/javascript" src="js/general.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
     <!-- JS/IE - MEDIAQUERIES + PSEUDOCLASES -->
     <!--[if lt IE 9]>
         <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
